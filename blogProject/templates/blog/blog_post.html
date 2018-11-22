@@ -1,0 +1,5 @@
+<ul>
+  {% for Post in Post%}
+  <li><a href="{{Post.get_absolute_url}}">{{Post.title|title}}</a></li>
+  {%endfor%}
+</ul>
